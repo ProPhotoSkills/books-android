@@ -6,7 +6,7 @@ Remote-URL-Modus – hier liegt KEIN Quellcode der Lese-App, nur die
 Verpackung (Icon, Splash, Zurueck-Taste). Vorbild: Repo `android` (PPS Coach).
 
 - App-Kennung: `com.prophotoskills.books` (nach dem ersten Upload nicht aenderbar)
-- Name: PPS Books · Version 2 (1.1)
+- Name: PPS Books · Version 3 (1.2)
 - Rechte: nur Internet
 - Google-Play-Regel: reine Lese-App – kein Kaufknopf, kein Link zu Kaufseiten
 
@@ -15,6 +15,10 @@ Verpackung (Icon, Splash, Zurueck-Taste). Vorbild: Repo `android` (PPS Coach).
 2. Android Studio → Open → Ordner `android/`
 3. Build → Generate Signed App Bundle → **neuer eigener Schluessel fuer PPS Books**
    (nicht den vom Coach). Schluessel und Passwort nie ins Repo.
+
+## Versionsanzeige (Version 3)
+- Die Lese-App (books-app ab v14) zeigt unten in der Fusszeile die App-Version, z. B. "Android 1.2 (3) · Web v14".
+- Die Zahl kommt automatisch aus `android/app/build.gradle` (versionName / versionCode) ueber das Capacitor-App-Plugin – hier nichts von Hand pflegen ausser diesen zwei Werten.
 
 ## Icon (Version 2)
 - Eigenes Icon PPS Books (Buecherstapel mit Fotograf, Eric 15.11.2026)
