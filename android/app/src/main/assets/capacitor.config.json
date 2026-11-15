@@ -1,0 +1,9 @@
+{
+	"appId": "com.prophotoskills.books",
+	"appName": "PPS Books",
+	"webDir": "www",
+	"server": {
+		"url": "https://books.prophotoskills.workers.dev",
+		"cleartext": false
+	}
+}
